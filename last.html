@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .sidebar {
+            height: 100vh;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: #333;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        Student Information System
+    </div>
+
+    <div class="sidebar">
+        <a href="#home">Home</a>
+        <a href="#students">Students</a>
+        <a href="#departments">Departments</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="content">
+        <h2>Student List</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>ID No</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>Computer Science</td>
+                <td>CS2023001</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>Electrical Engineering</td>
+                <td>EE2023002</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>Mechanical Engineering</td>
+                <td>ME2023003</td>
+            </tr>
+            <tr>
+                <td>Emily White</td>
+                <td>Civil Engineering</td>
+                <td>CE2023004</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
